@@ -1,0 +1,62 @@
+.container-fluid{
+	margin:0px;
+	justify-content: space-between;
+}
+h3{
+
+	text-align: center;
+	padding:10px;
+}
+
+
+#n1, #n2, #n3{
+position: relative;
+border: solid 1px black;
+}
+
+@media (max-width: 400px) {
+.navbar-toggler{
+display: flex;
+}
+}
+@media (min-width: 767px) {
+.navbar-toggler{
+display: none;
+}
+
+}
+#n1{
+	background-color: #BFD641 ;
+
+}
+#n2{
+	background-color: #98DDDE;
+}
+#n3{
+	background-color: #F7786B;
+}
+.food{
+	background-color: #BCBCBE;
+	width: 100%;
+
+
+}
+.navbar-toggler{
+	background-color: #F0EAD6;
+	float: right;
+	margin:5px;
+}
+.food h1{
+	display: inline-block;
+
+}
+
+#navbarResponsive{
+	text-align: center;
+
+}
+.nav-item{
+	list-style: none;
+}
+
+
